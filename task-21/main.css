@@ -1,0 +1,209 @@
+
+body{
+	background-color: red;
+}
+.b1>img{
+	width: 100%;
+	height: 500px;
+	margin: 5px;
+	padding: 5px;
+}
+li{
+	list-style: none;
+}
+#b1>img{
+		width: 300px;
+	height: 300px;
+	margin-top: -100pc;
+	margin-bottom: 200px;
+	margin-left: 500px;
+}
+#text{
+	font: 1em sans-serif;
+	text-align: center;
+	text-decoration: none;
+	text-transform: inherit;
+}
+.about{
+	text-align: center;
+	text-decoration: solid;
+	font: 1em sans-serif;
+}
+div>nav{
+float:left ;
+}
+#i1>img{
+	width: 400px;
+	height: 300px;
+	margin: 5px;
+	padding: 5px;
+}
+#i1{
+	width: 400px;
+	height: 200px;
+	margin: 5px;
+	padding: 5px;
+	text-align:center;
+	text-decoration: solid;
+	font: 1em sans-serif;
+}
+#i2{
+	text-align: center;
+	text-decoration: solid;
+	font: 1em sans-serif;
+	margin-top: 200px;
+}
+div>a>#i2{
+	margin-top: 200px;
+}
+div>nav>a{
+float:left ;
+}
+.i2{
+	margin-top: 0%;
+	touch-action: double-tap-zoom;
+	margin-left: 600px;
+	text-align: center;
+	text-decoration: solid;
+	font: 2em sans-serif;
+
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+
+.mySlides>img{
+	text-align: center;
+	text-decoration: solid;
+	font: 1em sans-serif;
+	width: 100%;
+	height: 500px;
+	margin: 5px;
+	padding: 5px;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #56e739;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #151f75;
+  border-radius: 50%;
+  display: inline-block;
+ 
+}
+
+.active, .dot:hover {
+  background-color: #eee5e5;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+ 
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+div>nav>ol{
+float:right ;
+margin-top: 0px;
+margin-left: 0%;
+}
+#i3>img{
+	width: 650px;
+	height: 610px;
+	
+}
+#i4>img{
+	width: 300px;
+	height: 300px;
+	
+}
+div>nav>li{
+float:left;
+
+
+}
+#i6>img{
+box-sizing: border-box;
+ height: 100px;
+  width: 100px;
+  border-radius: 100px;
+ margin-left: 100px;
+
+}
+#i7>img{
+box-sizing: border-box;
+ height: 200px;
+width: 200px;
+float: right;
+ border-radius: 100px;
+ margin-left: 300px;
+}
+.i8{
+	float: left;
+	padding: 5px;
+	margin: 5px;
+	height: 400px;
+
+
+}
+.foot{
+	text-align: center;
+	margin-top: 300px;
+	float: left;
+	background-color: rgb(46, 24, 173);
+	width: 100%;
+	height: 100px;
+	margin: 5px;
+	padding: 5px;
+	
+}
