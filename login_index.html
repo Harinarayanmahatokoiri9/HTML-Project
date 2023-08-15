@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- <meta http-equiv="refresh" content="3"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+
+    <style>
+        input {
+            height: 30px;
+            width: 200px;
+            padding: 8px;
+            border: none;
+            border-radius: 8px;
+            font-size: larger;
+           font-style: oblique;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+
+        #input {
+            height: 60px;
+            width: 100px;
+        }
+
+        body {
+            width: 100%;
+            height: 100;
+
+            box-sizing: content-box;
+            background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+        }
+
+
+
+        .btn {
+            height: 40px;
+            width: 300px;
+            padding: 8px;
+            /* display: block; */
+            margin-top: 10px;
+            font-size: large;
+            border-radius: 10px;
+            box-shadow: 2px 3px 2px black;
+        }
+
+        .btn:hover {
+            background-color: darkgray;
+            cursor: pointer;
+        }
+
+        #signup {
+
+            width: 45%;
+            background-image: linear-gradient(45deg, rgba(255, 0, 0, 0.5));
+            position: absolute;
+            float: right;
+            text-align: center;
+            font-size: larger;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 300;
+            font-style: oblique;
+            /* transform:rotate(45deg); */
+            background-color: rgba(0, 0, 0, 0.4);
+            color: wheat;
+          
+            float: left;
+            left: 52%;
+            border-radius: 40px;
+            top: 20%;
+            box-shadow: 2px 3px 2px black;
+        }
+
+        #login {
+            border-radius: 40px;
+
+            box-shadow: 2px 3px 2px black;
+            float: left;
+            width: 45%;
+            height: 400px;
+            top: 40%;
+            content: icon;
+            transform-origin: 0%;
+            background-image: linear-gradient(45deg, rgba(255, 0, 0, 0.5));
+            position: absolute;
+            float: right;
+            text-align: center;
+            font-size: larger;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 300;
+            font-style: oblique;
+            /* transform:rotate(45deg); */
+            background-color: rgba(0, 0, 0, 0.4);
+            color: wheat;
+            box-sizing: border-box;
+            right: 52%;
+        }
+        .boderline{
+            height: 800px;
+            width: 10px;
+            top: 30%;
+            background-color: rgba(0, 0, 0, 0.4);
+            color: wheat;
+            box-sizing: border-box;
+            left: 49.5%;
+            position: absolute;
+            background-color: chartreuse;
+        }
+
+        .col {
+            text-align: center;
+            fill: chartreuse;
+            height: 60px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>well come to koiri tecnical</h1>
+        <p>*fill the form carefull!!</p>
+    </center>
+
+    <div id="login">
+        <section>
+            <center>
+                <p>*login page!!</p>
+            </center>
+            <form>
+
+                <div class="col">
+                    <label for="inputFirstname" class="form-label">First name</label>
+
+                    <input type="text" class="form content1" placeholder="first name" aria-label="first name" />
+                </div>
+
+                <div class="col">
+                    <label for="inputLastname" class="form-label">Last name</label>
+
+                    <input type="text" class="form content1" placeholder="last name" aria-label="last name" />
+                </div>
+                <div class="col">
+                    <label for="inputUsername" class="form-label">Username</label>
+
+                    <input type="text" class="form content1" placeholder="user name" aria-label="user name" />
+                </div>
+                <div class="col">
+                    <label for="inputpassword" class="form-label">password</label>
+
+                    <input type="password" class="form content1" placeholder="password" aria-label="password" />
+                </div>
+                <br>
+                <center>
+
+                    <button type="submit" class="btn">Login</button>
+                </center>
+        </section>
+        </form>
+    </div>
+
+    <div class="boderline">
+
+    </div>
+
+    <div id="signup">
+
+        <center>
+            <p>*signup page!!</p>
+        </center>
+        <form>
+            <section>
+                <div class="col">
+                    <label for="inputFirstname" class="form-label">First name</label>
+                    <input type="text" class="form content2" placeholder="first name" aria-label="first name" />
+                </div>
+                <div class="col">
+                    <label for="inputLastname" class="form-label">Last name</label>
+                    <input type="text" class="form content2" placeholder="last name" aria-label="last name" />
+                </div>
+                <div class="col">
+                    <label for="inputUsername" class="form-label">Username</label>
+                    <input type="text" class="form content2" placeholder="user name" aria-label="user name" />
+                </div>
+
+                <div class="col">
+                    <label for="inputEmail4" class="form-label">Email</label>
+
+                    <input type="email" class="form content2" placeholder="email id" aria-label="email id" />
+                </div>
+                <div class="col">
+                    <label for="inputphonenumber" class="form-label">Phone Number</label>
+                    <input type="number" class="form content2" placeholder="phone number" aria-label="number" />
+                </div>
+                <div class="col">
+                    <label for="inputpassword" class="form-label">password</label>
+
+                    <input type="password" class="form content2" placeholder="password" aria-label="password" />
+                </div>
+                <div class="col">
+                    <label for="inputpassword" class="form-label">confirm password</label>
+                    <input type="password" class="form content2" placeholder="confirm password" aria-label="password" />
+                </div>
+                <div class="col">
+                    <label for="inputAddress" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="col">
+                    <label for="inputAddress2" class="form-label">Address 2</label>
+                    <input type="text" class="form-control" id="inputAddress2"
+                        placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="col">
+                    <label for="inputCity" class="form-label">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col">
+                    <label for="inputState" class="form-label">State</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+
+                <center>
+
+                    <button type="submit" class="btn">SignUp</button>
+                </center>
+            </section>
+        </form>
+    </div>
+    </div>
+
+</body>
+
+</html>
